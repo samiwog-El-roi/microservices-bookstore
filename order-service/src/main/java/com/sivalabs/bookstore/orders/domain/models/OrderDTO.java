@@ -1,17 +1,19 @@
-package com.samiwogelroi.bookstore.webapp.clients.orders;
+package com.sivalabs.bookstore.orders.domain.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.Set;
 
 public record OrderDTO(
-        Long id,
         String orderNumber,
+        String user,
         Set<OrderItem> items,
         Customer customer,
         Address deliveryAddress,
         OrderStatus status,
-        String comments) {
+        String comments,
+        LocalDateTime createdAt) {
 
     @JsonProperty(access = JsonProperty.Access.READ_ONLY)
     public BigDecimal getTotalAmount() {

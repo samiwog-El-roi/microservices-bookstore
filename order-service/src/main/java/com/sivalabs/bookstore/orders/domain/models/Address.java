@@ -1,7 +1,6 @@
-package com.samiwogelroi.bookstore.webapp.clients.orders;
+package com.sivalabs.bookstore.orders.domain.models;
 
 import jakarta.validation.constraints.NotBlank;
-import java.io.Serializable;
 
 public record Address(
         @NotBlank(message = "AddressLine1 is required") String addressLine1,
@@ -9,5 +8,4 @@ public record Address(
         @NotBlank(message = "City is required") String city,
         @NotBlank(message = "State is required") String state,
         @NotBlank(message = "ZipCode is required") String zipCode,
-        @NotBlank(message = "Country is required") String country)
-        implements Serializable {}
+        @NotBlank(message = "Country is required") String country) {}
