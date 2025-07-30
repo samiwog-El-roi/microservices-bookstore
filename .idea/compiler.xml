@@ -20,7 +20,7 @@
       <module name="bookstore-webapp" options="" />
       <module name="catalog-service" options="" />
       <module name="notification-service" options="-parameters" />
-      <module name="order-service" options="-parameters" />
+      <module name="order-service" options="" />
     </option>
   </component>
 </project>
