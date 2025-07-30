@@ -7,10 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <module name="api-gateway" />
         <module name="order-service" />
         <module name="notification-service" />
         <module name="bookstore-webapp" />
+=======
+        <module name="notification-service" />
+        <module name="order-service" />
+>>>>>>> Stashed changes
 =======
         <module name="notification-service" />
         <module name="order-service" />
@@ -29,6 +34,9 @@
       <module name="api-gateway" options="" />
       <module name="bookstore-webapp" options="" />
       <module name="catalog-service" options="" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
       <module name="notification-service" options="-parameters" />
       <module name="order-service" options="-parameters" />
